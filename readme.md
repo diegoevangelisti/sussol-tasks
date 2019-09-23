@@ -8,7 +8,8 @@ Write a function which accepts two integers and returns all modified Kaprekar nu
 The app show the obtained Kaprekar numbers between two given numbers (250, 5000).
 
 ### Task 3: Universal Drug Codes
-Using the publicly available API: [https://sussol.github.io/universal-drug-codes-server](https://sussol.github.io/universal-drug-codes-server) and  given a list of drug codes: 
+Using the publicly available API: [https://sussol.github.io/universal-drug-codes-server](https://sussol.github.io/universal-drug-codes-server) and given a list of drug codes: 
+
 `const codes = ['369844bf', '64d064bf', '32d064bf', '372ce4bf', 'bbfcf518'];`
 
 #### Challenge
