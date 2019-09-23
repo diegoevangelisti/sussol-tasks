@@ -2,23 +2,13 @@
 ## Overview
 
 ### Task 1: Kaprekar number challenge
-A modified Kaprekar number is a positive whole number with a special property. If you square it, then split the number into two integers and sum those integers, you have the same value you started with.
-
-Consider a positive whole number n with m digits. We square n to arrive at a number that is either 2d digits long or 2d-1 digits long. Split the string representation of the square into two parts,l and r. The right hand part, r, must be d digits long. The left is the remaining substring. Convert those two substrings back to integers, add them and see if you get .
-
-
-#### Challenge
 Write a function which accepts two integers and returns all modified Kaprekar numbers which lie between those two numbers. 
 
 #### Output
-The app show the obtained Kaprekar numbers between two given numbers minNumber(250) and maxNumber(5000).
+The app show the obtained Kaprekar numbers between two given numbers (250, 5000).
 
 ### Task 3: Universal Drug Codes
-Sustainable Solutions has created a website which allows searching for Universal Drug Codes.  
-This makes use of a publicly available API, the details for which can be found here:
-[https://sussol.github.io/universal-drug-codes-server](https://sussol.github.io/universal-drug-codes-server)
-
-Given a list of drug codes: 
+Using the publicly available API: [https://sussol.github.io/universal-drug-codes-server](https://sussol.github.io/universal-drug-codes-server) and  given a list of drug codes: 
 `const codes = ['369844bf', '64d064bf', '32d064bf', '372ce4bf', 'bbfcf518'];`
 
 #### Challenge
@@ -31,7 +21,7 @@ Based on requirements, the app shows three different results:
 - **Task 3.2:** Results shown when all have been processed 
 - **Task 3.3:** Results obtained asynchronously, cheking all drugs in parallel
 
-All results show the Drug Name along with their corresponding Drug Code. In case an error is found it is going to be display.
+All results show the Drug Name along with their corresponding Drug Code (unless an error is found).
 
 ## Test
 Task 1 main functions are tested using Jest.
@@ -41,7 +31,7 @@ To run this app [nodejs](https://nodejs.org/en/download/) should be installed. T
 
 #### Clone the repository
 
-    git clone https://github.com/diegoevangelisti/sussol-test.git
+    git clone https://github.com/diegoevangelisti/sussol-tasks.git
 
 #### Enter the projects folder
 
