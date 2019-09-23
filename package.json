@@ -6,17 +6,11 @@
     "start": "node app.js",
     "test": "jest"
   },
-  "author": "Diego",
+  "author": "Diego Evangelisti",
   "license": "ISC",
-  "description": "",
+  "description": "task1 and task3 for Sussol Intern Coding Application 2019",
   "dependencies": {
-    "axios": "^0.19.0",
-    "chai": "^4.2.0",
-    "index": "^0.4.0",
-    "node-fetch": "^2.6.0",
-    "progress": "^2.0.3",
-    "should": "^13.2.3",
-    "superagent": "^5.1.0"
+    "node-fetch": "^2.6.0"
   },
   "devDependencies": {
     "jest": "^24.9.0"
