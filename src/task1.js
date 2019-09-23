@@ -16,7 +16,7 @@ var getKeprekarNumbers = (n, m) => {
             d = n.toString().length
             square = getSquareValue(n)
             square = square.toString()
-            //check if d is even or odd before slice square
+            //check if square.length is even or odd before slice square
             d1 = (square.length % 2 == 0) ? d : d - 1;
             l = getValueOfL(square, square.length - d)
             r = getValueOfR(square, d1)
