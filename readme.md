@@ -34,11 +34,11 @@ To run this app [nodejs](https://nodejs.org/en/download/) should be installed. T
 
     git clone https://github.com/diegoevangelisti/sussol-tasks.git
 
-#### Enter the projects folder
+#### Open the project's folder
 
-    cd sussol-test
+    cd sussol-tasks
 
-#### Install the dependencies
+#### Install dependencies
 
     npm install
     npm i jest --save-dev
