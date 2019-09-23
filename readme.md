@@ -41,7 +41,6 @@ To run this app [nodejs](https://nodejs.org/en/download/) must be installed. The
 #### Install dependencies
 
     npm install
-    npm i jest --save-dev
 
 #### Run the server
 
