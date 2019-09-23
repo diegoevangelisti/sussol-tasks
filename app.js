@@ -14,14 +14,14 @@ const server = http.createServer((req, res) => {
 });
 server.listen(port, hostname)
 
-//minNumber(n) and maxNumber(m) for task1
-const minNumber = 250,
-    maxNumber = 5000;
+//n and m values for task1
+const n = 250,
+    m = 5000;
 
 executesAllTasks = async () => {
     //task1
-    const keprekarResults = await task1.getKeprekarNumbers(minNumber, maxNumber);
-    await task1.showKaprekarResults(minNumber, maxNumber, keprekarResults);
+    const keprekarResults = await task1.getKeprekarNumbers(n, m);
+    await task1.showKaprekarResults(n, m, keprekarResults);
     //task3
     await task3.getNameOfDrugsAfterEachResponseProcessed()
     await task3.getNameOfDrugsAllTogether()

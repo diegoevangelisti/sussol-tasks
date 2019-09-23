@@ -1,5 +1,5 @@
 //
-//Task 1 - Keprekar numbers
+//Task 1 - Get Keprekar numbers
 //
 
 var getKeprekarNumbers = (n, m) => {
@@ -22,7 +22,7 @@ var getKeprekarNumbers = (n, m) => {
             r = getValueOfR(square, d1)
             l = getIntOfL(l)
             r = getIntOfR(r)
-            //check if l + r equals n (a Keprekar number is found)
+            //check if a Kaprekar number is found
             isKeprekar = (l + r === n)
             if (isKeprekar) {
                 keprekarNumbers.push(n)
@@ -89,9 +89,9 @@ var getIntOfR = (stringR) => {
     }
 }
 
-var showKaprekarResults = (minNumber, maxNumber, results) => {
+var showKaprekarResults = (n, m, results) => {
     if (results) {
-        console.log(`Task 1: Keprekar numbers between ${minNumber} and ${maxNumber}: `)
+        console.log(`Task 1: Keprekar numbers between ${n} and ${m}}: `)
         for (result of results) {
             console.log(`${result}`)
         }
@@ -100,7 +100,6 @@ var showKaprekarResults = (minNumber, maxNumber, results) => {
     }
     console.log(`\n\n`);
 }
-
 
 module.exports = {
     checkPositiveNumbers,
