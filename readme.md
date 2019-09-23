@@ -50,3 +50,7 @@ To run this app [nodejs](https://nodejs.org/en/download/) should be installed. T
 #### Run the tests 
 
     npm test
+    
+### Created by
+
+Diego Evangelisti. 2019
