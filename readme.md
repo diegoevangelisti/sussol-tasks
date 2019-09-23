@@ -5,7 +5,7 @@
 Write a function which accepts two integers and returns all modified Kaprekar numbers which lie between those two numbers. 
 
 #### Output
-The app show the obtained Kaprekar numbers between two given numbers (250, 5000).
+The app shows the obtained Kaprekar numbers between 250 and 5000.
 
 ### Task 3: Universal Drug Codes
 Using the publicly available API: [https://sussol.github.io/universal-drug-codes-server](https://sussol.github.io/universal-drug-codes-server) and given a list of drug codes: 
@@ -28,7 +28,7 @@ All results show the Drug Name along with their corresponding Drug Code (unless 
 Task 1 main functions are tested using Jest.
 
 ## Setup
-To run this app [nodejs](https://nodejs.org/en/download/) should be installed. Then run these commands in your terminal:
+To run this app [nodejs](https://nodejs.org/en/download/) must be installed. Then run these commands in your terminal:
 
 #### Clone the repository
 
