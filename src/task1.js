@@ -91,12 +91,12 @@ var getIntOfR = (stringR) => {
 
 var showKaprekarResults = (n, m, results) => {
     if (results) {
-        console.log(`Task 1: Keprekar numbers between ${n} and ${m}}: `)
+        console.log(`Task 1: Keprekar numbers between ${n} and ${m}: `)
         for (result of results) {
             console.log(`${result}`)
         }
     } else {
-        console.log(`Task 1:\nError: n and m should be positive numbers `)
+        console.log(`Task 1:\nError: n and m should be positive numbers`)
     }
     console.log(`\n\n`);
 }

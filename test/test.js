@@ -3,17 +3,17 @@ const task1 = require('../src/task1')
 
 
 //min and max value for task1
-var minValue = 250;
-var maxValue = 5000;
+var n = 250;
+var m = 5000;
 
 //
 //All tests for Test 1
 //
 
 //Test 1.0: check if values are positives
-test('minNumber and maxNumber should be positive', () => {
+test('n and m should be positive', () => {
 
-    var expected = task1.checkPositiveNumbers(minValue, maxValue)
+    var expected = task1.checkPositiveNumbers(n, m)
     expect(expected).toEqual(true);
 
 })
@@ -63,10 +63,10 @@ test('Should output the integer value of r', () => {
 })
 
 //Test 1.6: Keprekar function
-test('Should output Keprekar numbers between 500 and 2500', () => {
+test('Should output Keprekar numbers between 250 and 2500', () => {
 
     var numbers = [];
     var expected = [297, 703, 999, 2223, 2728, 4950];
-    numbers = task1.getKeprekarNumbers(minValue, maxValue);
+    numbers = task1.getKeprekarNumbers(n, m);
     expect(numbers).toEqual(expect.arrayContaining(expected));
 })
